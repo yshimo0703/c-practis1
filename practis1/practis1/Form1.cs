@@ -27,6 +27,12 @@ namespace practis1
             dr["品名"] = "A001";
             dt.Rows.Add(dr);
 
+            // データテーブルの行を作成
+            dr = dt.NewRow();
+            dr["管理番号"] = "N002";
+            dr["カテゴリ"] = "部品";
+            dr["品名"] = "B001";
+            dt.Rows.Add(dr);
             dataGridView1.DataSource = dt;
 
 
