@@ -1,5 +1,5 @@
 using System.Data;
-
+//C#の練習（ソースツリー文字化け対策）
 namespace practis1
 {
     public partial class Form1 : Form
