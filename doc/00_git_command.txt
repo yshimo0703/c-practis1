@@ -3,11 +3,22 @@ git clone [リポジトリパス]
 git status
 git add .
 git commit -m "message"
-
+git log   (git log --oneline)
+git push origin (ブランチ名）
+------
+git pull origin (ブランチ名）
+(git fech + merge )
 
 //ブランチ
-
-
+git branch
+git branch (ブランチ名）
+git checkout (ブランチ名）
 
 //トラブル対応
+git reset HEAD   (git addの取り消し）
+
+//ブランチを間違った場合
+git stash    ------変更のカットのようなもの
+git branch (変更したいブランチ）
+git stash pop ---変更のペーストのようなもの
 
