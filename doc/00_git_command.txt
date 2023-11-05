@@ -1,0 +1,13 @@
+//基本
+git clone [リポジトリパス]
+git status
+git add .
+git commit -m "message"
+
+
+//ブランチ
+
+
+
+//トラブル対応
+
